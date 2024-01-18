@@ -15,43 +15,45 @@
 }
 
 .l-side {
-    margin-left: 80px;
+    margin-left: 8vw;
     margin-top: 180px;
 }
 
 .first-head {
-    font-size: 70px !important;
+    font-size: 4vw !important;
     line-height: 1;
 }
 
 .first-text {
     color: gray;
-    font-size: 20px;
+    font-size: 1.8vw;
 }
 
 .firt-btn {
     display: flex;
-    width: 150px;
-    height: 40px;
+    width: 13vw;
+    height: 7vh;
     background-image: linear-gradient(to right, #9e43f0, #6d28fc);
     border: none;
-    border-radius: 20px;
+    border-radius: 2.2vw;
     color: #ffff;
     padding-top: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .next {
-    width: 30px;
-    height: 30px;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 .third-page {
     background-color: #f3f4f6;
-    height: 250px;
+    height: 35vh;
 }
 
 .box {
-    height: 100px;
+    height: 10vw;
 }
 
 .last-line {
@@ -63,41 +65,60 @@
 
 .box1 {
     background-color: #ffffffe1;
-    width: 900px !important;
-    height: 150px;
-    margin-left: 300px;
+    width: 70vw !important;
+    height: 20vh;
+    margin-left: 15vw;
     border-radius: 15px;
     margin-top: -70px !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.col-2>button{
+font-size: 1vw;
+
+}
 
 .bt-1 {
-    margin-top: 30px;
+    margin-top: 5.2vh;
     border: none;
-    width: 150px;
-    height: 70px;
+    width: 10vw;
+    height: 9vh;
+    font-size: 1vw;
 }
 
 .bt-2 {
-    margin-top: 30px;
+    margin-top: 5.2vh;
     border: none;
-    width: 150px;
-    height: 70px;
-    margin-left: 30px;
+    width: 10vw;
+    height: 9vh;
+    font-size: 1vw;
+    margin-left: 3vw;
     background-color: #ffff;
 
 }
+.firt-btn1>div{
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .firt-btn1 {
     display: flex;
-    width: 130px;
-    height: 60px;
+    width: 10vw;
+    height: 9vh;
     background-image: linear-gradient(to right, #9e43f0, #6d28fc);
     border: none;
-    border-radius: 9px;
+    border-radius: 3vw;
+    
     color: #ffff;
-    padding-top: 5px;
-    padding: 15px !important;
+    padding-top: 1vw;
+    padding-left: 1.4vw;
+    
     margin-left: 100px;
     margin-top: 33px;
+}
+
+@media (max-width:1024) {
+    
 }
