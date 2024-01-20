@@ -16,7 +16,7 @@
 
 .l-side {
     margin-left: 8vw;
-    margin-top: 180px;
+    margin-top: 18vh;
 }
 
 .first-head {
@@ -35,7 +35,7 @@
     height: 7vh;
     background-image: linear-gradient(to right, #9e43f0, #6d28fc);
     border: none;
-    border-radius: 2.2vw;
+    border-radius: 30px;
     color: #ffff;
     padding-top: 5px;
     justify-content: center;
@@ -58,9 +58,9 @@
 
 .last-line {
 
-    font-size: 60px;
+    font-size: 6vw;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -18vh;
 }
 
 .box1 {
@@ -72,8 +72,9 @@
     margin-top: -70px !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.col-2>button{
-font-size: 1vw;
+
+.col-2>button {
+    font-size: 1vw;
 
 }
 
@@ -91,11 +92,12 @@ font-size: 1vw;
     width: 10vw;
     height: 9vh;
     font-size: 1vw;
-    margin-left: 3vw;
+    margin-left: 1vw;
     background-color: #ffff;
 
 }
-.firt-btn1>div{
+
+.firt-btn1>div {
     font-size: 1.5vw;
     display: flex;
     align-items: center;
@@ -105,20 +107,78 @@ font-size: 1vw;
 
 .firt-btn1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10vw;
     height: 9vh;
     background-image: linear-gradient(to right, #9e43f0, #6d28fc);
     border: none;
-    border-radius: 3vw;
-    
+    border-radius: 0.5vw;
     color: #ffff;
     padding-top: 1vw;
     padding-left: 1.4vw;
-    
-    margin-left: 100px;
+
+    margin-left: 3vw;
     margin-top: 33px;
 }
 
-@media (max-width:1024) {
+@media (max-width:1024px) {
+
+    .firt-btn {
+        width: 23vw;
+        height: 7vh;
+        padding-top: 5px;
+    }
+
+
+}
+
+@media (max-width:600px) {
+
+
+    .first-head {
+        font-size: 8vw !important;
+        line-height: 1;
+    }
+
+    .first-text {
+        font-size: 2.8vw;
+    }
+
+    .l-side {
+        margin-left: 4vw !important;
+        margin-top: 18vh;
+    }
+
+    .next {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .firt-btn1>div {
+        font-size: 2.5vw;
+    }
+    .firt-btn1 {
+       
+        width: 15vw;
+        height: 9vh;
+        font-size: 2vw;
+        border-radius: 1vw;
+        color: #ffff;
+        margin-left: 3vw;
+        margin-top: 33px;
+    }
+
+    .bt-2 {
+    font-size: 2vw;
     
+    }
+
+    .bt-1 {
+     display: none;
+        
+    }
+    
+
+
 }
